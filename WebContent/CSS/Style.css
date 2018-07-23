@@ -1,0 +1,96 @@
+body {font-family: times new roman, Helvetica, sans-serif;}
+
+input[type=text],input[type=password] {
+    width:20%;
+    padding:4px 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-align:center;
+    
+}
+body
+{
+ 	background-image:url(admin.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+table
+{
+	align:center;
+}
+label{
+	align:center;
+}
+a
+{
+	align:center;
+}
+button {
+    background-color:#4CAF50;
+    color: white;
+    padding:6px 6px;
+    border: none;
+    cursor: pointer;
+    width:8%;
+     margin-left:60px;
+    
+}
+.cancel
+{
+    background-color:#c94c4c;
+    color: white;
+    padding:6px 6px;
+    border: none;
+    cursor: pointer;
+    width:8%;
+    margin-left:30px;
+	
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 8px 0;
+}
+
+img.avatar {
+    width:10%;
+    border-radius:30%;
+}
+
+.container {
+    padding:6px ;
+    align:center;
+     background-color:#d5e1df
+
+     ;
+      padding:30px;
+ margin-top:50px;
+ border-radius:10px;
+ opacity:0.9;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    
+}
